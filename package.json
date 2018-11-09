@@ -1,11 +1,11 @@
 {
   "name": "styled-attributes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helper functions for styled component css in js",
   "main": "lib/styled-attributes.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Arcath/styled-attributes"
   },
   "scripts": {
     "test": "jest",
