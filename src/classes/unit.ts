@@ -1,8 +1,8 @@
-export class Unit<T extends string>{
+export class Unit{
   value: number
-  unit: T
+  unit: string
 
-  constructor(value: number, unit: T){
+  constructor(value: number, unit: string){
     this.value = value
     this.unit = unit
   }
@@ -20,7 +20,7 @@ export class Unit<T extends string>{
   }
 }
 
-export class PercentUnit extends Unit<'%'>{
+export class PercentUnit extends Unit{
   constructor(value: number){
     super(value / 100, '%')
   }

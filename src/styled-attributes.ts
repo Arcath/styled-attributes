@@ -70,3 +70,13 @@ export const darken = (color: Color, percent: number) => {
 export const fade = (color: Color, percent: number) => {
   return color.fade(percent)
 }
+
+/** Return the string representation of the `Unit` or `Color`, work around for Typescript */
+export const s = (k: Unit | Color) => {
+  return k.toString()
+}
+
+/** Return the number representation of the `Unit`, work around for Typescript */
+export const n = (k: Unit) => {
+  return k.valueOf()
+}
