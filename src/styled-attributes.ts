@@ -1,6 +1,9 @@
 import {Unit, PercentUnit} from './classes/unit'
 import {Color, fromRGB} from './classes/color'
 
+export {Color} from './classes/color'
+export {Unit} from './classes/unit'
+
 const createUnitFunction = (unit: string) => {
   return (value: number) => {
     return new Unit(value, unit)
